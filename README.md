@@ -3,6 +3,10 @@
 ## Overview
 This assessment evaluates your QA engineering skills, with a focus on test automation, using the Privilee website as a case study. You'll be asked to develop automated test scenarios and answer key questions about QA practices and automation.
 
+## Report screen shot
+<img width="1791" alt="Screenshot 2025-03-05 at 7 39 56 PM" src="https://github.com/user-attachments/assets/d792d0d5-0ecc-4976-9fc9-806882119a7a" />
+
+
 ## Instructions
 1. Review the following webpage https://staging-website.privilee.ae/map.
 2. Develop a set of automated test scenarios for the main features visible in the page.
