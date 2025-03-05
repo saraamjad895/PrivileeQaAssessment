@@ -14,8 +14,10 @@ jobs:
     runs-on: ubuntu-22.04
     name: Run tests
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Run tests
+        run: newman run ./collections/collection.json
 
       - name: Set up Node.js
         uses: actions/setup-node@v3
@@ -30,20 +32,11 @@ jobs:
 
       - name: Run Playwright tests
         run: xvfb-run npx playwright test
-
-      - name: Run tests
-        run: newman run ./collections/collection.json
-
+      
       - name: Generate Allure Report
         run: |
           npm install -g allure-commandline --save-dev
           allure generate allure-results --clean -o allure-report
-
-      - name: Publish Allure Report to GitHub Pages
-        uses: saraamjad895.github.io/PrivileeTask
-        with:
-          github_token: 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
-          publish_dir: ./public
 
 
   deploy:

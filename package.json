@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "## Overview This assessment evaluates your QA engineering skills, with a focus on test automation, using the Privilee website as a case study. You'll be asked to develop automated test scenarios and answer key questions about QA practices and automation.",
   "main": "index.js",
-  "scripts": {
-    "test": "npx playwright test "
-  },
+"scripts": {
+  "test": "npx playwright test"
+},
   "author": "",
   "license": "ISC",
   "dependencies": {
