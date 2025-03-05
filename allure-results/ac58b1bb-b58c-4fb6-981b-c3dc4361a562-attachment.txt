@@ -1,0 +1,4 @@
+============= Navigating to Privilee =============
+============= Executing Test Case 4 =============
+Load Time: 6765 ms
+============= Closing Browser =============

@@ -1,0 +1,5 @@
+============= Navigating to Privilee =============
+============= Executing Test Case 1 =============
+Count: 63
+Count: 63
+============= Closing Browser =============
