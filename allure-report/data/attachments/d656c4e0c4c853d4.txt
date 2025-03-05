@@ -1,0 +1,3 @@
+============= Navigating to Privilee =============
+============= Executing Test Case 6 =============
+============= Closing Browser =============

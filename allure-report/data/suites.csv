@@ -1,0 +1,8 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Mar 05 16:43:53 GMT+04:00 2025","Wed Mar 05 16:44:09 GMT+04:00 2025","15320","","map.spec.js","","","","Verify annual members toggle removes lock image from waterpark venues",""
+"passed","Wed Mar 05 16:43:53 GMT+04:00 2025","Wed Mar 05 16:44:10 GMT+04:00 2025","17098","","map.spec.js","","","","Verify that page refresh clears tab and filter selections",""
+"passed","Wed Mar 05 16:43:53 GMT+04:00 2025","Wed Mar 05 16:44:06 GMT+04:00 2025","12828","","map.spec.js","","","","Verify filter by location displays correct count on filter button and main page",""
+"passed","Wed Mar 05 16:43:53 GMT+04:00 2025","Wed Mar 05 16:44:08 GMT+04:00 2025","14329","","map.spec.js","","","","Verify page load time for selecting different types is within acceptable range",""
+"passed","Wed Mar 05 16:44:07 GMT+04:00 2025","Wed Mar 05 16:44:11 GMT+04:00 2025","4065","","map.spec.js","","","","Verify that incorrect search returns no results",""
+"passed","Wed Mar 05 16:43:53 GMT+04:00 2025","Wed Mar 05 16:44:09 GMT+04:00 2025","15269","","map.spec.js","","","","Verify venue detail page opens correctly and map shows correct location",""
+"passed","Wed Mar 05 16:43:53 GMT+04:00 2025","Wed Mar 05 16:44:08 GMT+04:00 2025","14109","","map.spec.js","","","","Verify search bar returns correct results",""

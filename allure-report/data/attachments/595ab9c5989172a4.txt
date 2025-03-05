@@ -1,0 +1,13 @@
+============= Navigating to Privilee =============
+============= Executing Test Case 2 =============
+List item text :Hilton Dubai Jumeirah
+Dubai
+Hilton Dubai Palm Jumeirah
+Dubai
+Hilton Dubai Al Habtoor City
+Dubai
+DoubleTree By Hilton Dubai Jumeirah Beach
+Dubai
+DoubleTree by Hilton Resort & Spa Marjan Island
+Ras Al Khaimah
+============= Closing Browser =============
