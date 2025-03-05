@@ -1,0 +1,53 @@
+name: Tests
+
+on:
+  push:
+
+jobs:
+  Build:
+    runs-on: ubuntu-22.04
+    name: Build application
+    steps:
+      - run: echo build application
+
+  test:
+    runs-on: ubuntu-22.04
+    name: Run tests
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+            node-version: '18'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Install Playwright Browsers
+        run: npx playwright install
+
+      - name: Run Playwright tests
+        run: xvfb-run npx playwright test
+
+      - name: Run tests
+        run: newman run ./collections/collection.json
+
+      - name: Generate Allure Report
+        run: |
+          npm install -g allure-commandline --save-dev
+          allure generate allure-results --clean -o allure-report
+
+      - name: Publish Allure Report to GitHub Pages
+        uses: saraamjad895.github.io/PrivileeTask
+        with:
+          github_token: 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
+          publish_dir: ./public
+
+
+  deploy:
+    runs-on: ubuntu-22.04
+    name: Deploy application
+    steps:
+      - run: echo deploy
